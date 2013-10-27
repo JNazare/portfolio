@@ -1,7 +1,7 @@
 extends layout
 
 block nav
-	img#profpic.img-thumbnail(src='images/headshot.jpg')
+	img#profpic.img-thumbnail(src='/images/headshot.jpg')
 	#name
 		h1  Juliana Nazar&eacute; 
 	#bio
@@ -18,20 +18,23 @@ block nav
 			i.fa.fa-envelope.fa-2x
 	#resume
 		h1#sidebarlinks
-			a(href='')  projects 
+			a(href='/')  projects 
 			| |
-			a(href='http://juliana.io/JulianaNazare_Resume.pdf')  resume 
+			a(href='/resume')  resume 
 		p(id="caption")  Picture from our weather ballon launch 
 
 block content
-	#projectrow.row
-		h3 Recent Projects &rarr;
-	#projectrow.row
-		each project in projects
-			a(href="")
-				#project.col-md-3
-					p#title  #{project.title}
-					//- p#subtitle  Wireless link between a Raspberry Pi and a software-defined radio 
-					p#date  #{project.date}
-	#projectrow.last.row
-		h3 &larr; Past Projects
+	if(currentproject) 
+		#myproject #{currentproject}
+	else
+		#projectrow.row
+			h3 Recent Projects &rarr;
+		#projectrow.row
+			each project in projects
+				a(href=project.url)
+					#project.col-md-3
+						p#title  #{project.title}
+						//- p#subtitle  Wireless link between a Raspberry Pi and a software-defined radio 
+						p#date  #{project.date}
+		#projectrow.last.row
+			h3 &larr; Past Projects

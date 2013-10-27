@@ -21,10 +21,12 @@ exports.getprojects = function(req, callback){
 		var dates = [];
 		var captions = [];
 		var dateObjs = [];
+		var urls = [];
 		for (var i=0; i<list.length; i++)
 		{ 
 			if (err) { throw err; }
-			var current = list[i].split("-");
+			var current = list[i].toLowerCase().split("-");
+			urls[i] = list[i].split(".")[0];
 			var title = current.slice(0,current.length-1).join(" ");
 			titles[i] = title.toUpperCase();
 			var date = current[current.length-1];
@@ -45,7 +47,15 @@ exports.getprojects = function(req, callback){
 				}
 			});
 		}
-		var all = [titles, dates, dateObjs]
+		var all = [titles, dates, dateObjs, urls]
 		callback(all);	
+	});
+}
+
+exports.getProject = function(req, callback){
+	var url = "projects/"+req.params.project+".md";
+	fs.readFile(url, 'utf8', function(err, data){
+		if (err) { throw err; }
+		callback(data);
 	});
 }
