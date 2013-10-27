@@ -1,0 +1,93 @@
+body, html {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Istok Web', sans-serif;
+    color: 000066;
+}
+
+h1{
+	font-size: 30px;
+}
+
+a:hover {
+	text-decoration:none;
+	color: white;
+}
+
+#sidebar{
+	text-align: center;
+	padding: 50px;
+	background-image: url("../images/background.jpg");
+	min-height:100vh;
+	background-repeat:no-repeat;
+	background-size: cover;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	/*background-size: 100vh;*/
+}
+
+#social-icons{
+	padding: 10px;
+}
+
+#social{
+	color: white;
+	margin: 5px;
+}
+
+#profpic{
+	height: 120px;
+}
+
+#resume{
+	margin-top: 100px;
+}
+
+#sidebarlinks h1, a{
+	color: white;
+}
+
+#caption{
+	 color: white; 
+	 font-size: 10px; 
+	 text-align: right;
+}
+
+#projects{
+	padding: 50px;
+}
+
+#project{
+  background-color: #000033;
+  padding: 10px;
+  margin-bottom: 16px;
+  height: 100px;
+}
+
+#project:hover {
+	background-color: purple;
+};
+
+#title{
+  font-size: 16px;
+  text-align: center;
+  color : white;
+  text-transform:uppercase;
+}
+
+#subtitle{
+  font-size: 10px;
+  color : white;
+}
+
+#date{
+  font-size: 8px;
+  color : white;
+  text-transform:capitalize;
+}
+
+.last{
+	text-align: right;
+}
