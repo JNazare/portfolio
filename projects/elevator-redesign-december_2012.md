@@ -1,3 +1,3 @@
-caption: some stuff about the project
+#Elevator Redesign
 
-hiiii
+For our Human Factors Interface Design course, I was on a team of four working on a semester-long project to redefine the elevator experience, concentrating on elevator bays in tall office buildings. We began by interviewing users, then moved to paper-prototyping, low-fidelity and high-fideling prototyping on the web. Finally, we came up with our final product, an elevator kiosk that helps visitors navigate to their desination.
