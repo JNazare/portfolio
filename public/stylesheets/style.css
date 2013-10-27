@@ -19,7 +19,7 @@ a:hover {
 #sidebar{
 	text-align: center;
 	padding: 50px;
-	background-image: url("../images/background.jpg");
+	background-image: url("../images/background2.jpg");
 	min-height:100vh;
 	background-repeat:no-repeat;
 	background-size: cover;
@@ -90,4 +90,8 @@ a:hover {
 
 .last{
 	text-align: right;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
 }
