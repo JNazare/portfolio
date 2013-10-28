@@ -11,8 +11,12 @@ h1{
 	font-size: 30px;
 }
 
-a:hover {
+#project a:hover {
 	text-decoration:none;
+	color: white;
+}
+
+#projects a{
 	color: white;
 }
 
@@ -45,8 +49,16 @@ a:hover {
 	margin-top: 100px;
 }
 
-#sidebarlinks h1, a{
+#sidebarlinks h1{
 	color: white;
+}
+
+#sidebarlinks a{
+	color: white;
+}
+
+#myproject a{
+	color: purple;
 }
 
 #caption{
@@ -58,6 +70,7 @@ a:hover {
 #projects{
 	padding: 40px;
 }
+
 
 #project{
   background-color: #000033;
