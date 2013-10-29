@@ -1,7 +1,8 @@
 #The Messenger Bag
 
-Worked with a team to identify needs and values of people who help the homeless in order to create a
-product specifically for them. Created a prototype of our story-sharing messenger bag final design.
+Worked with a team to identify needs and values of people who help the homeless in order to create a product specifically for them. Created a prototype of our story-sharing messenger bag final design.
+
+More on the design process coming soon...
 
 ---
 

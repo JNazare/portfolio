@@ -6,7 +6,7 @@ For our Principles of Engineering Project, I worked on a small team to create a 
 
 <center>
 	<iframe src="http://player.vimeo.com/video/33700261" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen class="img-polaroid"></iframe>
-	<p> The fountain playing Shemp by Ratatat </p>
+	<p> The fountain playing Shempi by Ratatat </p>
 </center>
 
 #####Teammates: Arjun Aletty, Eerik Helmick, Chris Mark

@@ -82,14 +82,14 @@ h1{
 }
 
 #work{
-  background-color: purple;
+  background-color: #4C004C;
   padding: 10px;
   margin-bottom: 16px;
   height: 90px;
 }
 
 #project:hover {
-	background-color: purple;
+	background-color: #4C004C;
 };
 
 #title{
@@ -118,6 +118,10 @@ p{
 	font-family: 'Raleway', sans-serif;
 }
 
+li{
+	font-family: 'Raleway', sans-serif;
+}
+
 #project a:hover {
 	text-decoration:none;
 	color: white;
@@ -139,3 +143,7 @@ width: 28em; /* or whatever */
 margin: 0;
 margin-left: 30em; /* or whatever width you set for #navigation */
 }
+
+#work:hover {
+	background-color: #000033;
+};
