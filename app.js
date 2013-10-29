@@ -6,6 +6,7 @@
 var express = require('express')
   , routes = require('./routes')
   , projects = require('./routes/projects')
+  , work = require('./routes/work')
   , resume = require('./routes/resume')
   , http = require('http')
   , path = require('path');
@@ -32,6 +33,7 @@ if ('development' == app.get('env')) {
 
 app.get('/', routes.index);
 app.get('/projects/:project', projects.show);
+app.get('/work/:work', work.show);
 app.get('/resume', resume.show);
 
 http.createServer(app).listen(app.get('port'), function(){

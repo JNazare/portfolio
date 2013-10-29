@@ -18,7 +18,7 @@ block nav
 			i.fa.fa-envelope.fa-2x
 	#resume
 		h1#sidebarlinks
-			a(href='/')  projects 
+			a(href='/') portfolio&nbsp;
 			| |
 			a(href='/resume')  resume 
 		br
@@ -29,13 +29,19 @@ block content
 		#myproject #{currentproject}
 	else
 		#projectrow.row
-			h3 Recent Projects &rarr;
+			h3 Work...
+		#projectrow.row
+			each job in work
+				a(href=job.url)
+					#work.col-md-3
+						p#title  #{job.title}
+						//- p#subtitle  Wireless link between a Raspberry Pi and a software-defined radio 
+						p#date  #{job.date}
+		#projectrow.row
+			h3 Projects and Fun...
 		#projectrow.row
 			each project in projects
 				a(href=project.url)
 					#project.col-md-3
 						p#title  #{project.title}
-						//- p#subtitle  Wireless link between a Raspberry Pi and a software-defined radio 
 						p#date  #{project.date}
-		#projectrow.last.row
-			h3 &larr; Past Projects

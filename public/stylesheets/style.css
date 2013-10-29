@@ -1,5 +1,6 @@
-body, html {
-  height: 100%;
+html,body {
+    height:100%;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5{
@@ -11,9 +12,10 @@ h1{
 	font-size: 30px;
 }
 
-#project a:hover {
+
+#sidebar a:hover {
 	text-decoration:none;
-	color: white;
+	color: yellow;
 }
 
 #projects a{
@@ -24,7 +26,7 @@ h1{
 	text-align: center;
 	padding: 50px;
 	background-image: url("../images/background2.jpg");
-	min-height:100vh;
+	min-height:100%;
 	background-repeat:no-repeat;
 	background-size: cover;
 	font-family: 'Raleway', sans-serif;
@@ -76,7 +78,14 @@ h1{
   background-color: #000033;
   padding: 10px;
   margin-bottom: 16px;
-  height: 100px;
+  height: 90px;
+}
+
+#work{
+  background-color: purple;
+  padding: 10px;
+  margin-bottom: 16px;
+  height: 90px;
 }
 
 #project:hover {
@@ -107,4 +116,26 @@ h1{
 
 p{
 	font-family: 'Raleway', sans-serif;
+}
+
+#project a:hover {
+	text-decoration:none;
+	color: white;
+}
+
+#projects {
+position: relative;
+}
+
+#sidebar {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+width: 28em; /* or whatever */
+}
+
+#projects {
+margin: 0;
+margin-left: 30em; /* or whatever width you set for #navigation */
 }
