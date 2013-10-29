@@ -14,13 +14,13 @@ I have built the web application in Node.Js, using the markdown parser Marked, A
 <table cellpadding="10">
 	<tr>
 		<td>
-			<img src="/images/curriculum_github_edit.png" alt="Drawing" style="width: 400px;"/>
+			<img src="/images/curriculum_github_edit.png" alt="Drawing" style="width: 300px;"/>
 			<center>
 				<p> Interface where you can edit curriculum</p>
 			</center>
 		</td>
 		<td>
-			<img src="/images/curriculum_github_view.png" alt="Drawing" style="width: 400px;"/>
+			<img src="/images/curriculum_github_view.png" alt="Drawing" style="width: 300px;"/>
 			<center>
 				<p> Interface where you can view curriculum</p>
 			</center>
