@@ -39,7 +39,7 @@ h1{
 }
 
 #social-icons{
-	padding: 20px;
+	padding: 10px;
 }
 
 #social{
@@ -51,9 +51,9 @@ h1{
 	height: 120px;
 }
 
-#resume{
-	margin-top: 30px;
-}
+/*#resume{
+	margin-top: 10px;
+}*/
 
 #sidebarlinks h1{
 	color: white;
