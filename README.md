@@ -24,6 +24,8 @@ git commit -m "init"
 git push origin master
 git push heroku master
 ```
+
+
 ##### Steps to add your content to the portfolio
 
 1. There are two folders you need to care about. They are the "work" and "projects" folders.
